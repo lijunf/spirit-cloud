@@ -7,9 +7,11 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * spring cloud config server
+ * 配置中心
  * 
  * @author lucien   
+ * @date 2016年8月2日 下午9:38:38 
+ * @version V1.0
  */
 @Configuration
 @EnableAutoConfiguration
