@@ -11,7 +11,8 @@
 	<inceptionYear>2016</inceptionYear>
 	
 	<properties>
-		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
 	</properties>
 	
 	<dependencyManagement>
@@ -19,7 +20,9 @@
 			
 		</dependencies>
 	</dependencyManagement>
+
 	<modules>
 		<module>spirit-cloud-config</module>
+		<module>spirit-eureka-server</module>
 	</modules>
 </project>
